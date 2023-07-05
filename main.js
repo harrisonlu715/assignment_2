@@ -1,7 +1,7 @@
 let multiFormula = '';
 
-for (var i = 1; i <= 9; i ++) {
-  for (var j = 1; j <= i; j ++){
+for (let i = 1; i <= 9; i ++) {
+  for (let j = 1; j <= i; j ++){
     multiFormula += j + "x" + i + "=" + j * i + '\t'
   }
   multiFormula = multiFormula + '\n';
